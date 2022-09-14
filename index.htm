@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 3.2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="Home">Home</a></li>
+            <li><a href="Contact">Contact</a></li>
+            <li><a href="About">About</a></li>
+            <li><a href="Services">Services</a></li>
+        </ul>
+
+    </nav>
+    <br>
+    <form action="submit.html" method="get">
+        <div>
+            <label for="email">E-mail</label> <br>
+            <input type="email" name="email" id="email" required placeholder="1234@gmail.com">
+        </div>
+
+        <div>
+            <label for="Wachtwoord">Wachtwoord</label> <br>
+            <input type="password" name="Wachtwoord" id="Wachtwoord" required placeholder="Wachtwoord">
+        </div>
+        
+
+        <div>
+        <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" required placeholder="first name" > 
+</div>
+
+        <div>
+            <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" required placeholder="Last name"> </div>
+
+  <div>
+    <label for="Gender">Gender</label> <br>
+
+    <label for="Male">Male</label>
+    <input type="radio" name="Gender" id="Male" value="Male" checked> 
+
+     <label for="Female">Female</label>
+     <input type="radio" id="Female" name="Gender" value="Female">
+  
+  </div>
+
+
+  <div>
+    <label for="Adres">Straat en Huisnummer</label><br>
+    <input type="text" id="Adres" name="Adres" required placeholder="Abcstraat 10"> <br>
+    <label for="Adres">Postcode</label> <br>
+    <input type="text" id="Adres" name="Adres" required placeholder="1234AS">
+
+  </div>
+  <div>
+    <label for="birthdate">birthdate</label><br>
+    <input type="month" name="birthdate" id="birthdate">
+  </div>
+  <div>
+    <label for="Stad">Stad</label><br>
+    <input type="text" name="Stad" id="Stad" required placeholder="Rotterdam">
+</div>
+<div>
+    <label for="Land">Land</label> <br>
+    <input type="text" name="Land" id="Land" required placeholder="Nederland">
+</div>
+
+<div>
+    <label for="bsnmaxlength">Bsn nummer</label> <br>
+    <input type="text" name="bsnmaxlength" id="bsnmaxlength" maxlength="9" min="0" max="9" placeholder="123456789" >
+
+
+</div>
+
+<div>
+    <label for=""></label>
+</div>
+
+<div>
+    <label for="Vakantie land">Vakantie land</label><br>
+    <select name="Vakantieland" id="Vakantieland">
+    <option value="Italie">Italie</option>
+    <option value="Spanje">Spanje</option>
+    <option value="Turkije">Turkije</option>
+    <option value="Frankrijk">Frankrijk</option>
+
+    </select>
+    
+</div>
+<div>
+    <label for="datemin">Datum van vertrek</label><br>
+    <input type="date" name="datemin" id="datemin" min="2022-09-14">
+<div>
+    <label for="datemin">Datum van terugkeer</label><br>
+    <input type="date" id="datemax" name="datemax"  min="2022-09-15" max="2023-12-30">
+</div>
+<div>
+    <label for="mensen">Reisgenoten</label><br>
+    <select name="mensen" id="mensen">
+        <option value="2">2</option>
+        <option value="4">4</option>
+       </select>
+</div>
+
+  
+   
+
+<br>
+
+<div>
+    <input type="submit" value="Boek nu">
+</div>
+    </form>
+    
+    
+    
+    
+</body>
+</html>
